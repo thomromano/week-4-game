@@ -38,6 +38,19 @@ $(document).ready(function(){
     $('numberLosses').text(losses);
 
     //I need to add add wins and losses
+    function win(){
+        alert("You Won!");
+        wins++;
+        $('#numberWins').text(wins);
+        reset();
+    }
+
+    function lose(){
+        alert("You Lose...");
+        losses++;
+        $('#numberLosses').text(losses);
+        reset();
+    }
 
     // condition for win/loss
    
@@ -46,6 +59,11 @@ $(document).ready(function(){
     function reset() {
         ranNum = Math.floor(Math.random()*101+19);
         console.log(ranNum)
+        $('#ranNum').text(Random)
+        number1 = Math.floor(Math.random() * 11+1)
+        number2 = Math.floor(Math.random() * 11+1)
+        number3 = Math.floor(Math.random() * 11+1)
+        number4 = Math.floor(Math.random() * 11+1)
         //ADD MORE HERE
         
     }
