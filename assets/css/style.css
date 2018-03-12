@@ -1,3 +1,41 @@
-#gameScreen {
-    background-image: url("assets/images/background_img.jpg");
+/* General Elements*/
+body{
+	background-image: url("../images/background.jpg")
+}
+div{
+    background-color: rgb(198, 230, 241);
+
+}
+
+.jumbotron{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: steelblue !important;
+}
+
+.instructions {
+    border: solid 4px #444444;
+    padding: 20px;
+}
+
+
+
+h1, span{
+	font-weight: bold;
+	text-align: center;
+}
+h1{
+	font-size: 30pt;
+}
+p {
+    color: green;
+}
+
+.jewels{
+    clear: both;
+    padding: 20px;
+}
+.jewelPic{
+	height: 60px;
+    margin: 10px;
+    
 }
