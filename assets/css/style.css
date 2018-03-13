@@ -1,21 +1,24 @@
-/* General Elements*/
+
 body{
 	background-image: url("../images/background.jpg")
 }
-div{
-    background-color: rgb(198, 230, 241);
+container{
+    
 
 }
 
 .jumbotron{
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Condiment', cursive;
+    font-size: 6.5rem;
     background-color: steelblue !important;
 }
 
 .instructions {
     border: solid 4px #444444;
+    background-color: rgb(198, 230, 241);
     padding: 20px;
 }
+
 
 
 
@@ -24,9 +27,10 @@ h1, span{
 	text-align: center;
 }
 h1{
-	font-size: 30pt;
+	font-size: 6.5rem;
 }
 p {
+    font-family: 'Lato', sans-serif;
     color: green;
 }
 
@@ -36,6 +40,9 @@ p {
 }
 .jewelPic{
 	height: 60px;
-    margin: 10px;
+   display: inline-block;
+    
+    
+ 
     
 }

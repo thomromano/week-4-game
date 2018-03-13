@@ -11,13 +11,14 @@
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
         crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Condiment|Lato" rel="stylesheet">
     <!-- Added link to the jQuery Library -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
 </head>
 
 <body>
-    <div class="container">
+    <div class="container-fluid">
         <div class="jumbotron">
             <h1>CrystalsCollector!</h1>
         </div>
@@ -41,12 +42,12 @@
         <div class="row">
             <div class="col-md-6">
                 <div class="numberToMatch">
-                    <h2> Match: 
+                    <h2> Match:
                         <span id="randomNumber"></span>
                     </h2>
                 </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-2">
                 <div class="winsAndLosses">
                     <h2>Wins:
                         <span id="numberWins"></span>
@@ -59,12 +60,20 @@
 
         </div>
 
-        <div class="jewels">
-            <img src="assets/images/blue.png" class=jewelPic id="one" alt="Blue Jewel">
-            <img src="assets/images/green.png" class=jewelPic id="two" alt="Green Jewel">
-            <img src="assets/images/red.png" class=jewelPic id="three" alt="Red Jewel">
-            <img src="assets/images/yellow.png" class=jewelPic id="four" alt="Yellow Jewel">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="jewels">
+
+                    <img src="assets/images/blue.png" class="jewelPic" id="one" alt="Blue Jewel">
+                    <img src="assets/images/green.png" class="jewelPic" id="two" alt="Green Jewel">
+                    <img src="assets/images/red.png" class="jewelPic" id="three" alt="Red Jewel">
+                    <img src="assets/images/yellow.png" class="jewelPic" id="four" alt="Yellow Jewel">
+
+                </div>
+            </div>
         </div>
+
+
         <div class="userTotal">
             <h2>Your total score is:
                 <span id="finalTotal"></span>
