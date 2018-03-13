@@ -1,13 +1,8 @@
-
-body{
-	background-image: url("../images/background.jpg")
-}
-container{
-    
-
+body {
+    background-image: url("../images/background.jpg")
 }
 
-.jumbotron{
+.jumbotron {
     font-family: 'Condiment', cursive;
     font-size: 6.5rem;
     background-color: steelblue !important;
@@ -19,30 +14,45 @@ container{
     padding: 20px;
 }
 
-
-
-
-h1, span{
-	font-weight: bold;
-	text-align: center;
+h1,
+span {
+    font-weight: bold;
+    text-align: center;
 }
-h1{
-	font-size: 6.5rem;
+
+h1 {
+    font-size: 6.5rem;
 }
+
 p {
     font-family: 'Lato', sans-serif;
     color: green;
 }
 
-.jewels{
+.jewels {
     clear: both;
     padding: 20px;
+    background: white;
 }
-.jewelPic{
-	height: 60px;
-   display: inline-block;
-    
-    
- 
-    
+
+.jewelPic {
+    height: 60px;
+    display: inline-block;
+}
+
+.userTotal {
+    background: tomato;
+    padding: 10px;
+}
+
+.numberToMatch {
+    background: thistle;
+    padding: 10px;
+}
+
+.winsAndLosses {
+    background: lightsalmon;
+    padding: 10px; 
+    padding-top: 20px;
+    padding-bottom: 20px;  
 }
